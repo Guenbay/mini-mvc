@@ -5,4 +5,4 @@ M V C
 >> M = Model | V = View | C = Controller
 
 
-**Separieren von Front- und Backend.**
+*Separieren von Front- und Backend.*
