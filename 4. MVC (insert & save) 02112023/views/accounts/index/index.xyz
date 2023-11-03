@@ -1,0 +1,33 @@
+<h1>Bank Account</h1>
+
+
+<table border ="1">
+    <tr>
+        <td>Auswahl</td>
+        <td>ID</td>
+        <td>Vorname</td>
+        <td>Nachname</td>
+        <td>E-Mail</td>
+        <td>Girokonto_ID</td>
+        <td>Sparbuch_ID</td>
+    </tr>
+
+<?php
+    for($i=0; $i < count($collection); $i++)
+    {
+        echo "<tr>";
+            echo "<td><input type=\"checkbox\" name=\"". $collection[$i]->id. "\" /></td>";
+            echo "<td>".$collection[$i]->id."</td>";
+            echo "<td>".$collection[$i]->firstname."</td>";
+            echo "<td>".$collection[$i]->surename."</td>";
+            echo "<td>".$collection[$i]->email."</td>";
+            echo "<td>".$collection[$i]->girokonto_id."</td>";
+            echo "<td>".$collection[$i]->sparbuch_id."</td>";
+            echo '<td><a href="index.php?controller=accounts&action=update&id='.$collection[$i]->id.'">Bearbeiten</a></td>';
+        echo "</tr>";
+    }
+    
+    ?>
+    </table>
+        <input type="submit" name="save" />
+

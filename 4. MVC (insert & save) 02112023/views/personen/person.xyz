@@ -1,0 +1,5 @@
+<tr> 
+    <td> Email <?php echo $firstname;?> </td> 
+    <td> Email <?php echo $surename;?> </td> 
+    <td> Email <?php echo $email;?> </td> 
+</tr>

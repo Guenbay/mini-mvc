@@ -1,0 +1,12 @@
+<h1>Accounts bearbeiten</h1>
+
+<form action="" method="POST">
+
+    <?php var_dump($collection);?>
+    <input type ="hidden" name = "id" value="<?php echo $collection[0]->id; ?>"/>
+    <input type ="text" name = "name" value="<?php echo $collection[0]->firstname; ?>"/>
+    <input type ="text" name = "name" value="<?php echo $collection[0]->surename; ?>"/>
+    <input type ="text" name = "email" value="<?php echo $collection[0]->email; ?>"/>
+    <input type ="submit" name = "submit"/>
+
+</form>

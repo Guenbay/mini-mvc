@@ -1,0 +1,12 @@
+<h1>INDEX</h1>
+<p>Das ist die Ausgabe von INDEX in: "views/index/index/index.xyz"</p>
+
+<tr>
+    <td>Benutzername</td>
+    <td>Passwort</td>
+</tr>
+<button>Login</button>
+
+<p>ID: <?php echo $id; ?></p>
+<p>Vorname: <?php echo $firstname; ?></p>
+<p>E-Mail: <?php echo $email; ?></p>
