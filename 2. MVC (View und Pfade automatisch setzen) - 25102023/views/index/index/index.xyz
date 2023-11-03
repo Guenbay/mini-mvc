@@ -1,8 +1,0 @@
-<h1>INDEX</h1>
-<p>Das ist die Ausgabe von INDEX in: "views/index/index/index.xyz"</p>
-
-<tr>
-    <td>Benutzername</td>
-    <td>Passwort</td>
-</tr>
-<button>Login</button>
